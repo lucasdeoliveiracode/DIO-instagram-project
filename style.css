@@ -1,0 +1,152 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+
+body{
+    width: 100%;
+    min-height: 100vh;
+    background-color: rgb(243, 243, 243);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.instagram-wrapper{
+    /* alinhar elementos do container em linha*/
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    width: 60%;
+    height: 100vh;
+}
+
+.instagram-phone{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    background-size: 454px 618px;
+}
+
+
+.instagram-phone img{
+    height: 48rem;
+}
+
+.instagram-login{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    min-height: 48rem;
+    width: 35%;
+}
+
+.group{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    background-color: #ffffff;
+    width: 100%;
+    padding: 1.1rem 0;
+    border: 1px solid lightgray;
+}
+
+.group:nth-child(1){
+    min-height: 29rem;
+}
+
+.ig-logo{
+    height: 6em;
+}
+
+.user{
+    padding: 8px;
+    width: 75%;
+    background-color: whitesmoke;
+    border: none;
+    border-radius: 2px;
+    height: 36px;
+    line-height: 36px;
+    overflow: hidden;
+    right: 0;
+    text-overflow: ellipsis;
+    font-size: 14px;
+}
+
+.line{
+    display: flex;
+    width: 80%;
+}
+  
+.line hr{
+    width: 150px;
+    margin: 8px;
+}
+
+.forgot-pass{
+    color: #00376b;
+}
+
+.login{
+    background-color: #b7d7e8;
+    color: #ffffff;
+    padding: 8px;
+    border-radius: 6px;
+    width: 80%;
+    border: none;
+}
+
+.log-fb img{
+    width: 100%;
+}
+
+.instagram-sign-up{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+    padding: 0.5rem;
+}
+
+.link-blue{
+    color: #0095f6;
+}
+
+.get-the-app{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    padding: 1.3rem 0;
+}
+
+.download{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+    padding: 1rem;
+}
+
+.download-app{
+    height: 3rem;
+    width: 10rem;
+    background-size: cover;
+}
+
+.download-app:nth-child(1){
+    background-image: url('./img/app-store.png');
+}
+
+.download-app:nth-child(2){
+    background-image: url('./img/google-play.png');
+}
