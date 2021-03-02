@@ -150,3 +150,23 @@ body{
 .download-app:nth-child(2){
     background-image: url('./img/google-play.png');
 }
+
+
+@media (max-width: 850px) {
+    body{
+        background-color: #ffffff;
+    }
+
+    .instagram-wrapper{
+        width: 90%;
+    }
+
+    .instagram-phone{
+        display: none;
+    }
+
+    .instagram-login{
+        width: 100%;
+    }
+
+}
